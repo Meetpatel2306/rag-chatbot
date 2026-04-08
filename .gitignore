@@ -1,0 +1,32 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# ── Environment / Secrets ────────────────────────────────
+.env
+.env.*
+
+# ── Data / Uploads ───────────────────────────────────────
+data/
+chroma_db/
+
+# ── Node / Next.js ───────────────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.pnpm-debug.log*
+frontend/npm-debug.log*
+frontend/*.tsbuildinfo
+
+# ── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
